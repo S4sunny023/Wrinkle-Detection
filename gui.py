@@ -13,7 +13,7 @@ class WrinkleDetectionApp:
         style = ThemedStyle(window)
         style.set_theme("arc") 
 
-        self.face_cascade = cv2.CascadeClassifier("F:\\Wrinkles_detection\\haarcascade_frontalface_default.xml")
+        self.face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
         self.canvas = tk.Canvas(window, width=800, height=600)
         self.canvas.pack()
